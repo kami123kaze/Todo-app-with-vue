@@ -1,5 +1,37 @@
-# Vue 3 + Vite
+# Vue 3 Todo List App (Composition API)
+A simple Todo List application built with Vue 3 and the Composition API. This project demonstrates the basics of Vue’s Composition API along with advanced features like saving data using LocalStorage.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Features
+✅ Add, edit, and delete tasks
+✅ Mark tasks as completed
+✅ Persistent storage using LocalStorage
+✅ Responsive and clean UI
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Technologies Used
+Vue 3 (Composition API)
+Vite (for fast development)
+LocalStorage (for data persistence)
+Tailwind CSS (optional, if used for styling)
+Installation & Setup
+Clone this repository:
+sh
+Copy
+Edit
+git clone https://github.com/your-username/vue-todo-app.git
+cd vue-todo-app
+Install dependencies:
+sh
+Copy
+Edit
+npm install
+Start the development server:
+sh
+Copy
+Edit
+npm run dev
+Open your browser and go to http://localhost:5173/ (default Vite port).
+Usage
+Add tasks using the input field.
+Click on a task to mark it as complete.
+Click the delete button to remove a task.
+The tasks are saved in LocalStorage, so they remain even after refreshing the page.
